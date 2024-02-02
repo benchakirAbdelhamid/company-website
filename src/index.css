@@ -29,7 +29,7 @@ nav{
     /* border: 1px solid red; */
     border-radius: 10px;
     overflow: hidden;
-    border: 1px solid rgba(128, 128, 128, 0.605);
+    border: 1px solid rgba(128, 128, 128, 0.415);
 }
 .card-services .text-card-services{
    color: gray; 
