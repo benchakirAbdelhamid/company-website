@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    transition: 0.4s;
+}
+
+nav{
+    box-shadow: none !important;
+}
+.btn-button{
+    background: linear-gradient(90deg,#3956de 0,#657be5);
+    border: none;
+    box-shadow: 0 4px 20px #3956de26;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 12px 30px;
+    transition: all .5s;
+}
+.card-services .parent-icon-services{
+    background-image: linear-gradient(rgba(86, 85, 85, 0.604) , rgba(128, 128, 128, 0.171));
+    padding: 20px;
+    border-radius: 50px;
+    color: rgba(77, 75, 75, 0.655);
+}
+.card-services{
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.605);
+}
+.card-services .text-card-services{
+   color: gray; 
+}
+.card-services:hover .text-card-services{
+   color: rgba(244, 244, 244, 0.701); 
+}
+.card-services:hover{
+    background-color: #3956de;
+    color: white;
+}
+.card-services:hover .parent-icon-services{
+    color: white;
+    background-image: linear-gradient(rgba(202, 200, 200, 0.604) , rgba(255, 255, 255, 0.171));
+}
+.card-services .title-card-services{
+color: rgb(75, 74, 74);
+}
+.card-services:hover .title-card-services{
+color: rgb(255, 255, 255);
+}
