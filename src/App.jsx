@@ -6,6 +6,7 @@ import Card from './components/Card';
 import Home from './components/Home';
 import About from './components/About';
 import OurServicess from './components/OurServices';
+import OurLatest from './components/OurLatest';
 
 
 const App = ()=> {
@@ -16,6 +17,7 @@ const App = ()=> {
    <Home/>
    <About/>
    <OurServicess/>
+   <OurLatest/>
 
    <br />
    <br />
