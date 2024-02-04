@@ -10,6 +10,7 @@ import OurLatest from './components/OurLatest';
 import OurCustomers from './components/OurCustomers';
 import LatestNews from './components/LatestNews';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 
 const App = ()=> {
@@ -24,17 +25,7 @@ const App = ()=> {
    <OurCustomers/>
    <LatestNews/>
    <ContactUs/>
-
-   <br />
-   <br />
-   <br />
-   <br />
-   <br />
-   <br />
-   <br />
- 
-   <br />
-   {/* <Card/> */}
+   <Footer/>
    </>
   );
 }

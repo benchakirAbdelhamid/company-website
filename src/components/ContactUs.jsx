@@ -1,5 +1,7 @@
 import React from "react";
 import { LiaLongArrowAltRightSolid } from "react-icons/lia";
+import { IoChatbubbleOutline } from "react-icons/io5";
+
 
 const ContactUs = () => {
   return (
@@ -22,13 +24,28 @@ const ContactUs = () => {
       </section>
 
       <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 lg:max-w-6xl lg:grid-cols-2 lg:px-8">
-        <div class="">
+        <div 
+        // class="flex justify-center" 
+        // style={{border:'1px solid red'}}
+        >
           <img
-            style={{ background: "transparent", width: "100%" }}
+            style={{ background: "transparent", width: "80%" }}
             src="https://nody.react.themesdesign.in/static/media/contact-img.d79dd481a5afbe1ed64a.png"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            class="rounded-lg bg-gray-100"
+            class="rounded-lg bg-gray-100 mx-auto "
           />
+          <div className="text-center "  >
+            <h3 style={{fontSize:'24px'}} class=" font-bold  text-gray-800  mt-4">Are You Facing Any Problem..?</h3>
+            <p style={{fontSize:'15px'}} className=" text-gray-500 mt-2" >It va esser tam simplic quam Occidental in fact it va esser Occidental <br /> angles quam un skeptic cambridge es.</p>
+            <button className="my-5 button-chart gap-2 mx-auto flex items-center" >
+              <IoChatbubbleOutline style={{fontSize:'24px'}} />
+              Start Live Chat</button>
+            <span className="text-gray-700" >Or you can contact at</span>
+            <div className=" text-sm mt-4 flex justify-around ">
+              <span className="  bg-gray-300 text-gray-500 py-1 px-3 rounded-md " > <span className="text-gray-700">Email:</span>  exemplehamid@gmail.com</span>
+              <span className="  bg-gray-300 text-gray-500 py-1 px-3 rounded-md "> <span className="text-gray-700">Phone:</span> (212) 7233 764 934</span>
+            </div>
+          </div>
         </div>
 
         <div>
@@ -40,7 +57,8 @@ const ContactUs = () => {
               <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"></div>
             </div>
             <div class=" max-w-2xl ">
-              <h2 class=" font-bold tracking-tight text-gray-800 text-2xl">
+              <h2 
+              class=" font-bold tracking-tight text-gray-800 text-2xl">
               Get in Touch
               </h2>
             </div>
@@ -104,7 +122,7 @@ const ContactUs = () => {
                     for="company"
                     class="block text-sm  leading-6 text-gray-800"
                   >
-                    Company
+                    Message
                   </label>
                   <div class="mt-2.5">
                     <input

@@ -66,7 +66,7 @@ const NavbarMenu = () => {
   }, []);
 
   return (
-    <Navbar className="mx-auto max-w-screen-xl px-6 py-3">
+    <Navbar className=" navbar mx-auto max-w-screen-xl px-6 py-3">
       <div className="flex items-center justify-between text-blue-gray-600">
         <Typography
           as="a"
