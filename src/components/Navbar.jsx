@@ -43,10 +43,10 @@ function NavList() {
           </a>
         </Typography>
       ))}
-      <LuFacebook style={{fontSize:'18px'}} className=" cursor-pointer hover:text-blue-700 transition-colors" />
-      <FiTwitter style={{fontSize:'18px'}}  className=" cursor-pointer hover:text-blue-700 transition-colors"/>
-      <SlSocialInstagram style={{fontSize:'18px'}} className=" cursor-pointer hover:text-blue-700 transition-colors"/>
-      <FiLinkedin style={{fontSize:'18px'}} className=" cursor-pointer hover:text-blue-700 transition-colors"/>
+      <LuFacebook style={{fontSize:'18px'}} className="icons-navbar cursor-pointer hover:text-blue-700 transition-colors" />
+      <FiTwitter style={{fontSize:'18px'}}  className="icons-navbar cursor-pointer hover:text-blue-700 transition-colors"/>
+      <SlSocialInstagram style={{fontSize:'18px'}} className="icons-navbar cursor-pointer hover:text-blue-700 transition-colors"/>
+      <FiLinkedin style={{fontSize:'18px'}} className="icons-navbar cursor-pointer hover:text-blue-700 transition-colors"/>
 
     </ul>
   );

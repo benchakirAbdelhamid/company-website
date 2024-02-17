@@ -11,16 +11,20 @@ import OurCustomers from './components/OurCustomers';
 import LatestNews from './components/LatestNews';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import OurFeatures from './components/OurFeatures';
+import Loading from './components/Loading';
 
 
 const App = ()=> {
 
   return (
    <>
+   <Loading/>
    <NavbarMenu/>
    <Home/>
    <About/>
    <OurServicess/>
+   {/* <OurFeatures/> */}
    <OurLatest/>
    <OurCustomers/>
    <LatestNews/>
