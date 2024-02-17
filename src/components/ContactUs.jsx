@@ -28,7 +28,7 @@ const ContactUs = () => {
         // class="flex justify-center" 
         // style={{border:'1px solid red'}}
         >
-          <img
+          <img loading="lazy"
             style={{ background: "transparent", width: "80%" }}
             src="https://nody.react.themesdesign.in/static/media/contact-img.d79dd481a5afbe1ed64a.png"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."

@@ -37,7 +37,7 @@ const OurFeatures = () => {
       <div class="container">
       <div class="selectItem">
         <div class="select active">
-          <img src={imgs1} alt="responsive" />
+          <img loading="lazy" src={imgs1} alt="responsive" />
           <div class="selectInfo">
             <h3>30+ Free Responsive Themes</h3>
             <p>
@@ -48,7 +48,7 @@ const OurFeatures = () => {
         </div>
 
         <div class="select">
-          <img src={imgs2} alt="responsive" />
+          <img loading="lazy" src={imgs2} alt="responsive" />
           <div class="selectInfo">
             <h3>Product Cataloging</h3>
             <p>Upload products or bulk import with variants and inventory.</p>
@@ -56,7 +56,7 @@ const OurFeatures = () => {
         </div>
 
         <div class="select">
-          <img src={imgs3} alt="responsive" />
+          <img loading="lazy" src={imgs3} alt="responsive" />
           <div class="selectInfo">
             <h3>Manage Orders</h3>
             <p>
@@ -67,7 +67,7 @@ const OurFeatures = () => {
         </div>
 
         <div class="select">
-          <img src={imgs4} alt="responsive" />
+          <img loading="lazy" src={imgs4} alt="responsive" />
           <div class="selectInfo">
             <h3>Manage Inventory</h3>
             <p>Manage and track inventory of products with their variants.  </p>
@@ -76,13 +76,13 @@ const OurFeatures = () => {
       </div>
 
       <div class="selectedImg">
-        <img src={img1} alt="img" />
+        <img loading="lazy" src={img1} alt="img" />
 
-        <img src={img2} alt="img" />
+        <img loading="lazy" src={img2} alt="img" />
 
-        <img src={img3} alt="img" />
+        <img loading="lazy" src={img3} alt="img" />
 
-        <img src={img4} alt="img" />
+        <img loading="lazy" src={img4} alt="img" />
       </div>
     </div>
 

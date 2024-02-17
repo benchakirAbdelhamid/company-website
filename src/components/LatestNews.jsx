@@ -26,7 +26,7 @@ const LatestNews = () => {
 
       <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 sm:px-6  lg:max-w-6xl lg:grid-cols-2 lg:px-8">
         <div class="">
-          <img
+          <img loading="lazy"
             style={{ background: "transparent", width: "100%" }}
             src="https://nody.react.themesdesign.in/static/media/img-1.ed94dc1931e773c53386.jpg"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
@@ -36,7 +36,7 @@ const LatestNews = () => {
 
         <div>
           <div className="flex py-3">
-            <img
+            <img loading="lazy"
               className="w-[150px] mr-4 rounded-md"
               src="https://nody.react.themesdesign.in/static/media/img-2.7d377318c1e78f44b756.jpg"
               alt=""
@@ -63,7 +63,7 @@ const LatestNews = () => {
 
 
            <div className="flex py-3">
-            <img
+            <img loading="lazy"
               className="w-[150px] mr-4 rounded-md"
               src="https://nody.react.themesdesign.in/static/media/img-3.4df458614cd4cd7cfe2f.jpg"
               alt=""
@@ -88,7 +88,7 @@ const LatestNews = () => {
           </div>
 
            <div className="flex py-3">
-            <img
+            <img loading="lazy"
               className="w-[150px] mr-4 rounded-md"
               src="https://nody.react.themesdesign.in/static/media/img-4.5a10b39b48656279dc69.jpg"
               alt=""

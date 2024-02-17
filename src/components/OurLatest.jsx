@@ -46,7 +46,7 @@ const OurLatest = () => {
                   }}
                   class="parent-img-card  flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-1.4797e63d96e18d13ec5c.jpg"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[100%] w-[100%] object-cover object-center rounded-md "
@@ -76,7 +76,7 @@ Professional Designer
                   }}
                   class=" parent-img-card flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-2.f8810823695991797f87.jpg"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[100%] w-[100%] object-cover object-center rounded-md "
@@ -106,7 +106,7 @@ Product Designer
                   }}
                   class="parent-img-card  flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-3.28f44764b71a311d39d1.jpg"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[100%] w-[100%] object-cover object-center rounded-md "
@@ -136,7 +136,7 @@ Design Development
                   }}
                   class=" parent-img-card flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-4.2fc9e78f10cc2b35d462.jpg"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[100%] w-[100%] object-cover object-center rounded-md "
@@ -166,7 +166,7 @@ Product Designer
                   }}
                   class=" parent-img-card flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-5.6f6d29fbfc5ef15e88a4.jpg"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[100%] w-[100%] object-cover object-center rounded-md "
@@ -196,7 +196,7 @@ Design Development
                   }}
                   class="parent-img-card  flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1  sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-6.5b336668ce6aaccf5fdf.jpg"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[100%] w-[100%] object-cover object-center rounded-md "

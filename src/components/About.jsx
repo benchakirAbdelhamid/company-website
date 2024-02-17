@@ -97,7 +97,7 @@ const About = () => {
                   }}
                   class="  flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-1.d714345bde869c00defa.png"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[75%] w-[75%] object-cover object-center rounded-md "
@@ -134,7 +134,7 @@ const About = () => {
                   }}
                   class="  flex justify-center items-center relative  overflow-hidden rounded-lg  sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64"
                 >
-                  <img
+                  <img loading="lazy"
                     src="https://nody.react.themesdesign.in/static/media/img-2.e8740135d7a449055730.png"
                     alt="Collection of four insulated travel bottles on wooden shelf."
                     class="h-[75%] w-[75%] object-cover object-center rounded-md "

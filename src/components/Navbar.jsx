@@ -74,7 +74,7 @@ const NavbarMenu = () => {
           variant="h6"
           className="mr-1 cursor-pointer py-1.5"
         >
-          <img src={brand} alt="brand" style={{width:'110px'}} />
+          <img loading="lazy" src={brand} alt="brand" style={{width:'110px'}} />
         </Typography>
         <div className="hidden lg:block">
           <NavList />
